@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: #9b857a;
 }
 * {
   margin: 0px;
@@ -11,8 +12,6 @@ body {
 .container {
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
-  border: 1rem solid #c2c2c2;
 }
 .App {
   text-align: center;
@@ -89,7 +88,7 @@ p {
   color: #848484;
 }
 .vacc_part {
-  height: 10rem;
+  height: 12rem;
   width: 70%;
   margin: 4rem auto;
   background-color: rgba(216, 76, 85, 255);
@@ -98,20 +97,25 @@ p {
   float: left;
   width: 40%;
   text-align: center;
+  height: 12rem;
 }
 .redBus {
-  height: 10rem;
-  width: 15.5rem;
+  height: 12rem;
+  width: 60%;
 }
 .Right_content {
   float: right;
   width: 60%;
-  height: 10rem;
+  height: 12rem;
+  text-align: start;
 }
 .Right_para {
   text-align: start;
   color: #fed6d9;
   font-weight: bold;
+  height: 12rem;
+  width: 100%;
+  margin-top: 2rem;
 }
 .footer {
   background-color: rgba(55, 55, 55, 255);
@@ -134,4 +138,64 @@ li {
   height: 3rem;
   width: 3rem;
   margin: 1rem;
+}
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  p {
+    font-size: small;
+  }
+}
+.Right_content {
+  background-color: rgba(216, 76, 85, 255);
+
+  margin-bottom: 1rem;
+}
+li {
+  border: 1px solid rgb(83, 69, 69);
+}
+.it {
+  border: 1px solid gray;
+}
+.todo-contant {
+  text-align: center;
+  background-color: #9b857a;
+  margin: 10rem auto;
+}
+.input-todo {
+  height: 2rem;
+  width: 15rem;
+  border-radius: 6px;
+  margin: 2rem 1rem;
+  border: none;
+  padding-left: 10px;
+}
+.input-todo:hover {
+  background-color: #ececec;
+  border: none;
+}
+.btn-todo {
+  border-radius: 8px;
+  height: 2rem;
+  width: 5rem;
+  margin: 1rem;
+  font-size: revert;
+  background-color: #899b7a;
+  border: 0;
+  color: #ffffff;
+}
+.ListItem {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  margin: 2rem auto;
+  background-color: #8f6e5e;
+  border-radius: 20px;
+}
+.list_name {
+  font-size: xx-large;
+  color: aquamarine;
+  margin: 0.5rem;
+  font-size: x-large;
+}
+h1 {
+  color: aquamarine;
 }
